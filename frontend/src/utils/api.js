@@ -2,7 +2,7 @@ import axios from "axios";
 //Axios is a HTTP client used to make API requests from your frontend to your backend.
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",  // your backend URL
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
 });
 
 // If token exists, attach it
