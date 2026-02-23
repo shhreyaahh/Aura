@@ -1,0 +1,99 @@
+What each package is for:-
+
+express → server
+
+mongoose → connect and use MongoDB
+
+dotenv → environment variables
+
+bcryptjs → password hashing
+
+jsonwebtoken → login tokens
+
+cloudinary → image/video storage
+
+multer → file upload handling
+
+cors → allow frontend requests
+
+nodemon → automatic server restart
+
+
+
+🚀 STEP 1 — Initialize Backend Project
+
+Inside your backend/ folder, run:
+
+npm init -y
+npm install express mongoose dotenv bcryptjs jsonwebtoken cloudinary multer cors
+npm install nodemon --save-dev
+
+
+
+
+Now we move to the next major backend feature: Circles.
+
+Circles are like private groups where users can post and interact (similar to Life360 groups).
+
+We will build this in 3 steps:
+
+1️⃣ Circle Model
+2️⃣ Circle Controller
+3️⃣ Circle Routes
+
+Let’s start.
+
+
+🌐 1. What is Axios?
+
+Axios is a HTTP client used to make API requests from your frontend to your backend.
+
+✔ Why people use Axios:
+
+Easier syntax than fetch()
+
+Automatically converts JSON
+
+Lets you set base URLs
+
+Supports interceptors (important for JWT authentication)
+
+Built-in error handling
+
+🧠 2. What is Zustand?
+
+Zustand is a state management library.
+It lets you create a global store that any component can access.
+
+Why use Zustand?
+
+Super lightweight
+
+Easier than Redux
+
+Perfect for:
+
+user authentication state
+
+storing logged-in user info
+
+storing post feed
+
+storing chat state
+
+notifications
+
+theme preferences
+
+
+
+moment is a small library that converts timestamps like:
+
+2025-01-23T18:01:00.123Z
+
+
+into:
+
+3 minutes ago
+Yesterday
+2 days ago

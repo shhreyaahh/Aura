@@ -1,0 +1,14 @@
+.search-input {
+  width: 260px;
+  padding: 8px 15px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
