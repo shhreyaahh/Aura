@@ -1,6 +1,6 @@
 import { useState } from "react";
 import api from "../utils/api";
-import FriendSelector from "./Friend Selector";
+import FriendSelector from "./FriendSelector";
 
 function CreateCircle({ onCreated }) {
   const [name, setName] = useState("");

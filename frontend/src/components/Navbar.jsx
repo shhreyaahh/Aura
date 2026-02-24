@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import useAuthStore from "../store/authStore";
-import "./navbar.css";
+import "./Navbar.css";
 
 function Navbar() {
   const user = useAuthStore((state) => state.user);
